@@ -1,6 +1,6 @@
 Package: xpca
 Type: Package
-Title: xpca: Cross-Covariance Principal Components Analysis
+Title: Cross-Covariance Principal Components Analysis
 Version: 0.1.0.9000
 Description: An implementation of Principal Components Analysis (PCA) specifically designed for cross-covariance matrices. The `xpca` package provides tools for finding the principal components that maximize the explained variance between two sets of multivariate random variables. 
 License: GPL (>= 3)

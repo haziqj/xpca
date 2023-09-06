@@ -16,6 +16,8 @@ knitr::opts_chunk$set(
 # xpca
 
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![R-CMD-check](https://github.com/haziqj/xpca/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/haziqj/xpca/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 An implementation of Principal Components Analysis (PCA) specifically designed for cross-covariance matrices. The `xpca` package provides tools for finding the principal components that maximize the explained variance between two sets of multivariate random variables. 
@@ -29,4 +31,12 @@ You can install the development version of xpca from [GitHub](https://github.com
 devtools::install_github("haziqj/xpca")
 ```
 
-UNDER CONSTRUCTION
+## Usage
+
+```{r}
+library(xpca)
+set.seed(123)
+x <- matrix(rnorm(100 * 3), nrow = 100, ncol = 3)
+y <- matrix(rnorm(100 * 5), nrow = 100, ncol = 5)
+xpca(x, y)
+```

@@ -1,15 +1,19 @@
 Package: xpca
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: xpca: Cross-Covariance Principal Components Analysis
+Version: 0.1.0.9000
+Description: An implementation of Principal Components Analysis (PCA) specifically designed for cross-covariance matrices. The `xpca` package provides tools for finding the principal components that maximize the explained variance between two sets of multivariate random variables. 
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
-Imports: Rcpp (>= 1.0.11)
-LinkingTo: Rcpp
 URL: https://github.com/haziqj/xpca
 BugReports: https://github.com/haziqj/xpca/issues
+Authors@R: c(
+    person("Haziq", "Jamil", , "haziq.jamil@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-3298-1010")),
+    person("Akira", "Kinjo", role = "ctb",
+           comment = c(ORCID = "0000-0002-4006-8208")),
+    person("Haziq", "Jamil", role = "ctb")
+  )
+RoxygenNote: 7.2.3
+

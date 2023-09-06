@@ -11,3 +11,5 @@ Encoding: UTF-8
 LazyData: true
 Imports: Rcpp (>= 1.0.11)
 LinkingTo: Rcpp
+URL: https://github.com/haziqj/xpca
+BugReports: https://github.com/haziqj/xpca/issues

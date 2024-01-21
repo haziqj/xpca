@@ -16,4 +16,4 @@ Authors@R: c(
     person("Haziq", "Jamil", role = "ctb")
   )
 RoxygenNote: 7.2.3
-
+Config/Needs/website: rmarkdown
